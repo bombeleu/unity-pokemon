@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Serialization\Creaturedb.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Serialization\Creaturedb.cs" Line="107" Column="7" />
+      <File FileName="Assets\Scripts\OverworldMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sqlite\Sqlite.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sqlite\SqliteConfigOpts.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sqlite\SqliteErrorCode.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sqlite\SqliteOpenOpts.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sqlite\SqliteDatatype.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Objects\NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Objects\StatsType.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="Objects" expanded="True" />
+              <Node name="Serialization" expanded="True">
+                <Node name="Creaturedb.cs" selected="True" />
+              </Node>
+              <Node name="Sqlite" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
