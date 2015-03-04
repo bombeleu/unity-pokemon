@@ -5,19 +5,36 @@ public class Species {
 	public static Dictionary<int,Species> SPECIES;
 	public int id;
 	public string name;
+	public short ability_id1, ability_id2;
+	public byte type_id1, type_id2;
 	public byte 
 		gender_ratio, 
 		capture_rate,
 		ev_val;
-	public StatsType ev_type; 
-	public int max_exp;
+	public StatsType ev_type;
+	public bool[] misc_info;
+	public ushort egg_steps;
+	public byte egg_group_id1, egg_group_id2;
+	public int wild_item_id;
+	public byte wild_item_pct;
+	public float height, weight;
+	public string classification, dex_entry;
+	public int cry_sfx_id;
+	public string path_to_sprites;
 	public short[] 
 		base_stats,
 		max_stats;
+	public int max_exp;
 	public bool[] tm_list;
 	
 	public Ability ability1, ability2;
 	public Type type1, type2;
+	/*
+	 * public Item wild_item;
+	 * public EggGroup egg_group1, egg_group2;
+	 * public Sfx cry_sfx;
+	 * public Sprite sprite_def;
+	 * */
 	
 	private Species(){}
 	public static void init(List<Dictionary<string,string>> species_defs) {
@@ -31,19 +48,29 @@ public class Species {
 			temp.ev_val = System.Convert.ToByte (row["ev_val"]);
 			temp.ev_type = (StatsType) System.Convert.ToByte (row["ev_type"]);
 			temp.max_exp = System.Convert.ToInt32 (row["max_exp"]);
+			temp.tm_list = Sqlite.getBitsFromBlob(row["tm_list"]);
+			temp.misc_info = Sqlite.getBitsFromBlob(row["misc_info"]);
+			temp.egg_steps = System.Convert.ToUInt16(row["egg_steps"]);
+			temp.wild_item_id = System.Convert.ToInt32(row["wild_item"]);
+			
 
 			temp.base_stats = new short[6];
 			temp.base_stats[StatsType.atk] = System.Convert.ToInt16(row["base_atk"]);
 			temp.base_stats[StatsType.def] = System.Convert.ToInt16(row["base_def"]);
 			temp.base_stats[StatsType.sp_atk] = System.Convert.ToInt16 (row["base_spatk"]);
-
+			temp.base_stats[StatsType.sp_Def] = System.Convert.ToInt16 (row["base_spdef"]);
+			temp.base_stats[StatsType.hp] = System.Convert.ToInt16(row["base_hp"]);
+			temp.base_stats[StatsType.speed] = System.Convert.ToInt16(row["base_speed"]);
+			
 			temp.max_stats  = new short[6];
-
-			
-			
-			
-	
-	
+			temp.max_stats[StatsType.atk] = System.Convert.ToInt16(row["max_atk"]);
+			temp.max_stats[StatsType.def] = System.Convert.ToInt16(row["max_def"]);
+			temp.max_stats[StatsType.sp_atk] = System.Convert.ToInt16 (row["max_spatk"]);
+			temp.max_stats[StatsType.sp_Def] = System.Convert.ToInt16 (row["max_spdef"]);
+			temp.max_stats[StatsType.hp] = System.Convert.ToInt16(row["max_hp"]);
+			temp.max_stats[StatsType.speed] = System.Convert.ToInt16(row["max_speed"]);
+			SPECIES[temp.id] = temp;
+		}
 	}
 	/*
 	public Species(
