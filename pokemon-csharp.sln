@@ -1,10 +1,9 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 5.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp-firstpass-vs.csproj", "{7640B939-92E7-8937-B22B-060AE5F51DF9}"
+# Visual Studio 2008
+
+Project("{00BFC8C7-29F5-D4D5-29A4-12B12C58DDD2}") = "pokemon", "Assembly-CSharp-firstpass-vs.csproj", "{7640B939-92E7-8937-B22B-060AE5F51DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp-vs.csproj", "{DA511180-072F-9E92-DCB8-5ACD43BD0C51}"
+Project("{00BFC8C7-29F5-D4D5-29A4-12B12C58DDD2}") = "pokemon", "Assembly-CSharp-vs.csproj", "{DA511180-072F-9E92-DCB8-5ACD43BD0C51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -37,9 +36,11 @@ Global
 		$0.TextStylePolicy = $3
 		$3.FileWidth = 120
 		$3.TabWidth = 4
+		$3.IndentWidth = 4
 		$3.EolMarker = Unix
 		$3.inheritsSet = Mono
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
