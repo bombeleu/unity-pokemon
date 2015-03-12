@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Objects/Species.cs.meta
 guid: 7dc07a9db21642c4a8d995bc11ab0407
+=======
+guid: aa2c854f385ad314b906d5066c3f7023
+>>>>>>> 41a7d74... Still fixing VS issues:Assets/Scripts/Objects/Species.cs.meta
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
