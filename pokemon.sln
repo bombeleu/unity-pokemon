@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 5.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp-firstpass-vs.csproj", "{7640B939-92E7-8937-B22B-060AE5F51DF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp-firstpass.csproj", "{7640B939-92E7-8937-B22B-060AE5F51DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp-vs.csproj", "{DA511180-072F-9E92-DCB8-5ACD43BD0C51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokemon", "Assembly-CSharp.csproj", "{DA511180-072F-9E92-DCB8-5ACD43BD0C51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
