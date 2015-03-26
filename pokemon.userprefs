@@ -1,29 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Objects\Species.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sqlite/EmptyCSharpFile.cs">
     <Files>
-      <File FileName="Assets\Scripts\Objects\Moves.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enumerators\MoveAffinity.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Type.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Ability.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enumerators\StatsType.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Species.cs" Line="38" Column="83" />
-      <File FileName="Assets\Scripts\Sqlite\Sqlite.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Effect.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Sqlite/Sqlite.cs" Line="216" Column="18" />
+      <File FileName="Assets/Scripts/Sqlite/EmptyCSharpFile.cs" Line="122" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="Enumerators" expanded="True" />
-              <Node name="Objects" expanded="True">
-                <Node name="Species.cs" selected="True" />
+              <Node name="Sqlite" expanded="True">
+                <Node name="EmptyCSharpFile.cs" selected="True" />
               </Node>
-              <Node name="Serialization" expanded="True" />
-              <Node name="Sqlite" expanded="True" />
             </Node>
           </Node>
+          <Node name="Assembly-CSharp-firstpass" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
